@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Automatically Fetch CSV Data from localized API Server
-    Papa.parse('/data.csv', {
+    Papa.parse('sample.csv', {
         download: true,
         header: true,
         skipEmptyLines: true,
